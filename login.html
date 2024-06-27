@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="loginbttn.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <link rel="stylesheet" href="card.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="loginstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css">
+</head>
+
+<body>
+    <header>
+        <nav class="header">
+            <a href="index.html"><img src="images/logo/spooky.png" class="logo"></a>
+            <ul>
+                <li><a href="index.html"><button id="btn"><i class='bx bx-home'></i> Main</button></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container glass">
+        <div class="wrapper">
+            <form action="">
+                <h1>Sign in</h1>
+                <div class="input-box">
+                    <input type="text" id="login" required>
+                    <i class='bx bxs-user' style='color:#ffffff'  ></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" id="password" required>
+                    <i class='bx bx-lock-alt' style='color:#ffffff' ></i>
+                </div>
+                <button type="submit" class="logbtn">Login</button>
+            </form>
+        </div>
+        <div id="typedtext"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"
+        integrity="sha512-jq8sZI0I9Og0nnZ+CfJRnUzNSDKxr/5Bvha5bn7AHzTnRyxUfpUArMzfH++mwE/hb2efOo1gCAgI+1RMzf8F7g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <canvas class="background"></canvas>
+        <script type="text/javascript" src="loginform.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+.wrapper {
+    text-align: center;
+}
+
+.input-box input {
+    width: 60%;
+    height: 35px;
+    background: transparent;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.input-box input:hover {
+    transition: 0.9s ease;
+    box-shadow: 0 0 5px #06d1f580, 0 0 20px #06d1f580, 0 0 50px #06d1f580;
+    background-color: #ffffff0e;
+}
+
+button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+  }
+
+button:hover, :focus {
+    color: #06d1f580;
+    text-shadow: 0 0 5px #06d1f580, 0 0 10px #06d1f580, 0 0 20px #06d1f580;
+    border: 1px solid #06d1f580;
+}
+
+h1 {
+    text-shadow: 0 0 1.25px #06d1f580, 0 0 2.5px #06d1f580, 0 0 5px #06d1f580;
+    color: #06d1f580;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logbtn:hover {
+    cursor: pointer;
+    background-color: #ffffff0e;
+}
+
+#login, #password {
+    border: 1px solid #ffffff80;
+}
+
+#login:hover, #password:hover {
+    border: 1px solid #06d1f580;
+}

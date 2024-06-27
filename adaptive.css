@@ -1,0 +1,105 @@
+@media only screen and (max-width: 1200px){
+    .logo {
+        width: 20%;
+    }
+    button {
+        padding: 15px 25px;
+    }
+    button {
+        font-size: 20px;
+    }
+    .container {
+        height: 386px;
+        width: 27%;
+    }
+}
+
+
+@media only screen and (max-width: 992px){
+
+}
+
+
+@media only screen and (max-width: 768px){
+    .logo {
+        width: 30%;
+    }
+     nav ul {
+        display: block;
+        padding-top: 50px;
+     }
+     nav ul li {
+        display: block;
+        padding-top: 10px;
+     }
+     
+     #bttn {
+        position: fixed;
+        bottom: 52rem;
+        right: 10px;
+     }
+     .container{
+        margin: 16px auto;
+     }
+}
+
+@media only screen and (max-width: 643px){
+    .container {
+        padding: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+    .logo {
+        width: 40%;
+    }
+     nav ul {
+        display: block;
+        padding-top: 50px;
+     }
+     nav ul li {
+        display: block;
+        padding-top: 10px;
+     }
+     
+     #bttn {
+        position: fixed;
+        bottom: 52rem;
+        right: 10px;
+     }
+     button {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    .container{
+        width: 40%;
+    }
+}
+
+
+@media only screen and (max-width: 320px){
+    .logo {
+        width: 55%;
+    }
+     nav ul {
+        display: block;
+        padding-top: 50px;
+     }
+     nav ul li {
+        display: block;
+        padding-top: 10px;
+     }
+     
+     #bttn {
+        position: fixed;
+        bottom: 52rem;
+        right: 10px;
+     }
+     button {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+}
+
+
