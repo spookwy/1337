@@ -31,8 +31,24 @@ let snake;
 }());
 
 window.addEventListener('keydown', (e) => {
-    const direction = e.key.replace('Arrow', '');
-    snake.changeDirection(direction);
+    switch (e.keyCode) {
+        case 37: // Left arrow
+        case 65: // 'A'
+            snake.changeDirection('Left');
+            break;
+        case 38: // Up arrow
+        case 87: // 'W'
+            snake.changeDirection('Up');
+            break;
+        case 39: // Right arrow
+        case 68: // 'D'
+            snake.changeDirection('Right');
+            break;
+        case 40: // Down arrow
+        case 83: // 'S'
+            snake.changeDirection('Down');
+            break;
+    }
 });
 
 function Snake() {
