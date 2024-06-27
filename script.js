@@ -39,7 +39,7 @@ var particles = Particles.init({
   );
   
   var letters = "abcdefghijklmnopqrstuvwxyz#%&^+=-:;[]{}\|/()*!@";
-  var iSpeed = 60;
+  var iSpeed = 45;
   var iIndex = 0;
   var iArrLength = aText[0].length;
   var iScrollAt = 20;
